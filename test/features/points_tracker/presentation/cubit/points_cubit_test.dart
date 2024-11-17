@@ -6,7 +6,6 @@ import 'package:orchard_tek_technical_test/features/points_tracker/presentation/
 
 void main() async {
   setUpAll(() async {
-    // Inicializamos los datos del locale 'es' para poder usar el formateo de fecha
     await initializeDateFormatting('es', null);
   });
 
@@ -38,7 +37,7 @@ void main() async {
           updates: [
             {
               "points": "+10",
-              "date": formatDateToDayMonth(DateTime.now()), // Fecha dinámica
+              "date": formatDateToDayMonth(DateTime.now()),
             }
           ],
         ),
@@ -55,7 +54,7 @@ void main() async {
           updates: [
             {
               "points": "-5",
-              "date": formatDateToDayMonth(DateTime.now()), // Fecha dinámica
+              "date": formatDateToDayMonth(DateTime.now()),
             }
           ],
         ),
@@ -75,7 +74,7 @@ void main() async {
           updates: [
             {
               "points": "+15",
-              "date": formatDateToDayMonth(DateTime.now()), // Fecha dinámica
+              "date": formatDateToDayMonth(DateTime.now()), 
             }
           ],
         ),
@@ -84,11 +83,11 @@ void main() async {
           updates: [
             {
               "points": "+15",
-              "date": formatDateToDayMonth(DateTime.now()), // Fecha dinámica
+              "date": formatDateToDayMonth(DateTime.now()),
             },
             {
               "points": "-10",
-              "date": formatDateToDayMonth(DateTime.now()), // Fecha dinámica
+              "date": formatDateToDayMonth(DateTime.now()), 
             },
           ],
         ),

@@ -19,7 +19,7 @@ class FloatingActionButtonWidget extends StatelessWidget {
     return FloatingActionButton(
       backgroundColor:  color.mapColorsTechnicalTest['deepPurple'],
       shape:  RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(30), // Esto hará que el botón sea circular
+        borderRadius: BorderRadius.circular(30), 
       ),
       heroTag: heroTag,
       onPressed: onPressed,
